@@ -1,0 +1,84 @@
+{
+  "expo": {
+    "name": "GatherVia",
+    "slug": "gathervia",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/gathervia-mark.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#081512"
+    },
+    "orientation": "default",
+    "scheme": "com.laurinishimwe.gathervia",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      "expo-router",
+      [
+        "expo-navigation-bar",
+        {
+          "backgroundColor": "#081512",
+          "barStyle": "light",
+          "borderColor": "#19362f"
+        }
+      ],
+      "./plugins/withAndroidBillingLaunchMode",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow GatherVia to scan guest QR codes.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow GatherVia to select event and flyer images.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-localization",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Allow GatherVia to access invitation images.",
+          "savePhotosPermission": "Allow GatherVia to save guest invitations."
+        }
+      ],
+      "expo-secure-store",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.laurinishimwe.gathervia",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EBFDBD"
+      },
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "com.laurinishimwe.gathervia",
+              "pathPrefix": "/oauthredirect"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ],
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "ios": {
+      "bundleIdentifier": "com.gathervia.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

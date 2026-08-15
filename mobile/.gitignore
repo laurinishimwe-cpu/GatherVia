@@ -1,0 +1,29 @@
+
+# Dependencies and Expo output
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Local configuration and generated logs
+.env
+.env.local
+.env.*.local
+*.log
+
+# Native and IDE output
+android/.gradle/
+android/app/build/
+android/build/
+ios/Pods/
+.idea/
+.vscode/
+*.jks
+*.keystore
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Expo-generated typing
+expo-env.d.ts

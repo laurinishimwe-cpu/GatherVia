@@ -1,0 +1,15 @@
+# Match any .env file in any directory or subdirectory
+**/.env
+**/.env.*
+.env
+.env.*
+*.env
+*.env.*
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+mobile/.env
+mobile/.env.*
+mobile/.env.local

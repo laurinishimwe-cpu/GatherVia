@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "defaultFamily": "Inter",
+  "families": [
+    { "key": "Inter", "family": "Inter", "category": "sans", "aliases": ["Arial", "Avenir", "Consolas", "Courier New", "Gill Sans", "Helvetica", "Monaco", "Roboto", "Segoe UI", "Tahoma", "Trebuchet MS", "Verdana", "monospace", "sans-serif", "system-ui"], "faces": { "normal": { "400": "Inter-Regular.ttf", "700": "Inter-Bold.ttf" }, "italic": { "400": "Inter-Italic.ttf", "700": "Inter-BoldItalic.ttf" } } },
+    { "key": "SourceSerif4", "family": "Source Serif 4", "category": "serif", "aliases": ["Baskerville", "Garamond", "Georgia", "Palatino", "Palatino Linotype", "Times", "Times New Roman", "serif"], "faces": { "normal": { "400": "SourceSerif4-Regular.ttf", "700": "SourceSerif4-Bold.ttf" }, "italic": { "400": "SourceSerif4-Italic.ttf", "700": "SourceSerif4-BoldItalic.ttf" } } },
+    { "key": "DancingScript", "family": "Dancing Script", "category": "handwriting", "aliases": ["Comic Sans MS", "DancingScript", "cursive"], "faces": { "normal": { "400": "DancingScript-Regular.ttf", "700": "DancingScript-Bold.ttf" }, "italic": { "400": "DancingScript-Regular.ttf", "700": "DancingScript-Bold.ttf" } } },
+    { "key": "Montserrat", "family": "Montserrat", "category": "sans", "aliases": ["Montserrat Alternates"], "faces": { "normal": { "400": "Montserrat-Regular.ttf", "700": "Montserrat-Bold.ttf" }, "italic": { "400": "Montserrat-Italic.ttf", "700": "Montserrat-BoldItalic.ttf" } } },
+    { "key": "PlayfairDisplay", "family": "Playfair Display", "category": "serif", "aliases": ["Playfair"], "faces": { "normal": { "400": "PlayfairDisplay-Regular.ttf", "700": "PlayfairDisplay-Bold.ttf" }, "italic": { "400": "PlayfairDisplay-Italic.ttf", "700": "PlayfairDisplay-BoldItalic.ttf" } } },
+    { "key": "LeagueSpartan", "family": "League Spartan", "category": "display", "aliases": ["LeagueSpartan"], "faces": { "normal": { "400": "LeagueSpartan-Regular.ttf", "700": "LeagueSpartan-Bold.ttf" }, "italic": { "400": "LeagueSpartan-Regular.ttf", "700": "LeagueSpartan-Bold.ttf" } } }
+  ]
+}
